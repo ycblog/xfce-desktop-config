@@ -1,0 +1,8 @@
+app=/usr/bin/chromium
+last_user=
+screenshot_dir=file:/home/carbon/Desktop/xfce-desktop-config/desktop
+action=1
+delay=0
+region=3
+show_mouse=0
+

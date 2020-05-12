@@ -1,0 +1,14 @@
+Use_Label=true
+Show_Values=true
+Show_Bars=false
+Colorize_Values=true
+Color_In=rgb(239,41,41)
+Color_Out=rgb(46,52,54)
+Text=网络
+Network_Device=enp34s0
+Max_In=4096
+Max_Out=4096
+Auto_Max=true
+Update_Interval=1000
+Values_As_Bits=false
+

@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=Task Manager
+Name[zh_CN]=任务管理器
+Comment=Easy to use task manager
+Comment[zh_CN]=易用的任务管理器
+GenericName=Task Manager
+GenericName[zh_CN]=任务管理器
+Exec=xfce4-taskmanager
+Icon=utilities-system-monitor
+Terminal=false
+StartupNotify=true
+Type=Application
+Categories=System;Utility;
+X-XFCE-Source=file:///usr/share/applications/xfce4-taskmanager.desktop

@@ -1,0 +1,32 @@
+[Desktop Entry]
+Version=1.0
+Name=Firefox
+GenericName=Web Browser
+GenericName[zh_CN]=网络浏览器
+Comment=Browse the World Wide Web
+Comment[zh_CN]=浏览互联网
+Keywords=Internet;WWW;Browser;Web;Explorer
+Keywords[zh_CN]=Internet;WWW;Browser;Web;Explorer;网页;浏览;上网;火狐;Firefox;ff;互联网;网站;
+Exec=/usr/lib/firefox/firefox %u
+Icon=firefox
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+MimeType=text/html;text/xml;application/xhtml+xml;x-scheme-handler/http;x-scheme-handler/https;application/x-xpinstall;application/pdf;application/json;
+StartupNotify=true
+StartupWMClass=firefox
+Categories=Network;WebBrowser;
+Actions=new-window;new-private-window;
+X-XFCE-Source=file:///usr/share/applications/firefox.desktop
+
+[Desktop Action new-window]
+Name=New Window
+Name[en_US]=New Window
+Name[zh_CN]=新建窗口
+Exec=/usr/lib/firefox/firefox --new-window %u
+
+[Desktop Action new-private-window]
+Name=New Private Window
+Name[en_US]=New Private Window
+Name[zh_CN]=新建隐私浏览窗口
+Exec=/usr/lib/firefox/firefox --private-window %u
